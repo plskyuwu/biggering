@@ -2,24 +2,27 @@
 	"schemaVersion": 1,
 	"id": "biggering",
 	"version": "${version}",
-	"name": "biggering",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"name": "Biggering",
+	"description": "This is a Lorax themed mod.",
 	"authors": [
-		"Me!"
+		"plskyuwu"
 	],
 	"contact": {
-		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"homepage": "https://modrinth.com/user/plskyuwu/",
+		"sources": "https://github.com/plskyuwu/biggering"
 	},
 	"license": "CC0-1.0",
 	"icon": "assets/biggering/icon.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"plskyuwu.biggering.ExampleMod"
+			"plskyuwu.biggering.Biggering"
+		],
+		"client": [
+			"plskyuwu.biggering.BiggeringClient"
 		],
 		"fabric-datagen": [
-			"plskyuwu.biggering.ExampleModDataGenerator"
+			"plskyuwu.biggering.BiggeringDataGenerator"
 		]
 	},
 	"mixins": [
